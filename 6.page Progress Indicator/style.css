@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+   
+}
+
+img{
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.container  {
+    max-width: 900px; 
+    margin: 0    auto;
+    padding: 0 20px;
+}
+
+header{
+    background: #333;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.nav-list{
+    display: flex;  
+}
+
+a{
+    color: #fff;
+    font-size:1.5rem;
+    margin-left: 40px ;
+}
+
+.log{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.box{
+    border: 1px solid gray;
+    padding: 2rem;
+    margin-top: 4rem;
+    /* display: flex; */ 
+}
+
+section{
+    padding: 5rem 0;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex > *{
+    margin: 3px;
+}
+
+section.header{
+    width: 100%;
+    height: 90vh;
+    background: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)center no-repeat;
+    background-size: cover;
+}
+
+.scroll-indicator{
+    width: 100%;
+    height: 4px;
+    background: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.progress{
+    width: 0% ;
+    height: 4px;
+    background: orange;
+}
